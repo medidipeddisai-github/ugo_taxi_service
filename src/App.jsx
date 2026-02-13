@@ -58,7 +58,7 @@ const UgoTaxiWebsite = () => {
   screen7,
   screen8,
   screen9,
-  screen10,
+  screen10,       1
 ];
 
   const features = [
@@ -154,16 +154,6 @@ const UgoTaxiWebsite = () => {
               ))}
             </div>
 
-            {/* <div className="nav-contact">
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="contact-btn whatsapp">
-                <span>📱</span>
-              </a>
-              <a href="tel:+919876543289
-              
-              " className="contact-btn phone">
-                <span>📞</span>
-              </a>
-            </div> */}
 
             <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
               <span></span>
@@ -376,7 +366,7 @@ const UgoTaxiWebsite = () => {
                 </div>
                 <div className="form-group">
                   <label>Phone:</label>
-                  <input type="tel" placeholder="+91 9876543210" />
+                  <input type="tel" placeholder="+91 91XXXXXXXX" />
                 </div>
                 <div className="form-group">
                   <label>Message:</label>
@@ -391,8 +381,8 @@ const UgoTaxiWebsite = () => {
                 <div className="info-icon">📞</div>
                 <div className="info-text">
                   <h3>Phone</h3>
-                  <p>+91 9876543210</p>
-                  <p>+91 9876543211</p>
+                  <p>+91 9100088718</p>
+                  <p>+91 9100088718</p>
                 </div>
               </div>
 
@@ -400,8 +390,8 @@ const UgoTaxiWebsite = () => {
                 <div className="info-icon">✉️</div>
                 <div className="info-text">
                   <h3>Email</h3>
-                  <p>ugotaxiservices.com</p>
-                  <p>info@ugotaxi.com</p>
+                  <p>ugocabservices.com</p>
+                  
                 </div>
               </div>
 
@@ -475,10 +465,10 @@ const UgoTaxiWebsite = () => {
 
       {/* Floating Action Buttons */}
       <div className="floating-buttons">
-        <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="float-btn whatsapp-float">
+        <a href="https://wa.me/919100088718" target="_blank" rel="noopener noreferrer" className="float-btn whatsapp-float">
           <span>📱</span>
         </a>
-        <a href="tel:+919876543210" className="float-btn phone-float">
+        <a href="tel:+919100088718" className="float-btn phone-float">
           <span>📞</span>
         </a>
       </div>
