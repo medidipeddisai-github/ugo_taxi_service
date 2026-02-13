@@ -12,6 +12,7 @@ import screen7 from "./assets/screens/screen7.jpeg";
 import screen8 from "./assets/screens/screen8.jpeg";
 import screen9 from "./assets/screens/screen9.jpeg";
 import screen10 from "./assets/screens/screen10.jpeg";
+import screen11 from "./assets/screens/screen11.jpeg";
 import logos from "./assets/ugo_logo.png";
 
 const UgoTaxiWebsite = () => {
@@ -58,7 +59,8 @@ const UgoTaxiWebsite = () => {
   screen7,
   screen8,
   screen9,
-  screen10,       1
+  screen10,  
+  screen11     
 ];
 
   const features = [
